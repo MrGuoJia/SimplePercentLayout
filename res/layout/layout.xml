@@ -34,5 +34,5 @@
         android:gravity="center"
         android:text="w:100%,he:10%"
         />
-    
+
 </android.support.percent.PercentFrameLayout>
