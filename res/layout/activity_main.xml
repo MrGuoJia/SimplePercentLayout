@@ -45,7 +45,6 @@
         android:gravity="center"
          android:layout_below="@id/head"
         android:id="@+id/btn_pass"
-
         />
 </android.support.percent.PercentRelativeLayout>
 
