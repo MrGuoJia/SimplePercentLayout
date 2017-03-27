@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    app:layout_heightPercent="30%"
+    app:layout_widthPercent="50%"
+    android:background="#ff6000"
+    android:text="width:50%,height:30%"
+    android:gravity="center"
+    android:id="@+id/left"
+    />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="30%"
+        app:layout_widthPercent="50%"
+        android:background="#c16000"
+        android:text="width:50%,height:30%"
+        android:gravity="center"
+        android:layout_toRightOf="@id/left"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_heightPercent="50%"
+        android:layout_below="@id/left"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        android:id="@+id/head"
+        />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="20%"
+        app:layout_widthPercent="100%"
+        android:text="w:100%,h:20%
+        PercentRelativeLayout传递到
+        PercentFrameLayout
+        "
+        android:gravity="center"
+         android:layout_below="@id/head"
+        android:id="@+id/btn_pass"
+        />
+
+</android.support.percent.PercentRelativeLayout>
+
