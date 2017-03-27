@@ -41,8 +41,7 @@
         app:layout_widthPercent="100%"
         android:text="w:100%,h:20%
         PercentRelativeLayout传递到
-        PercentFrameLayout
-        "
+        PercentFrameLayout"
         android:gravity="center"
          android:layout_below="@id/head"
         android:id="@+id/btn_pass"
