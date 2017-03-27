@@ -12,7 +12,6 @@
         android:background="#fab1"
         android:text="w:50%,h:20%"
         android:gravity="center"
-
         />
     <TextView
         android:layout_width="0dp"
